@@ -1,0 +1,40 @@
+﻿@page
+
+@model IEnumerable<WavePlatform.Models.Book>
+
+<h1>Books</h1>
+
+@if (Model == null || !Model.Any())
+{
+    <p>The library is currently empty.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in Model)
+            {
+                <tr>
+                    <td>@book.Title</td>
+                    <td>@book.Author?.Name</td>
+                    <td>
+                        <a asp-page="./Details" asp-route-id="@book.BookId">Details</a> |
+                        <form asp-page-handler="AddToLibrary" method="post" style="display: inline;">
+                            <input type="hidden" name="bookId" value="@book.BookId" />
+                            <button type="submit">Add to Library</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<a asp-page="./Create" class="btn btn-primary">Add New Book</a>

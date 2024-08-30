@@ -1,0 +1,24 @@
+﻿@page
+
+@model IEnumerable<WavePlatform.Models.Book>
+
+<h1>My Library</h1>
+
+<div class="row">
+    @foreach (var book in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                @if (book.CoverImage != null)
+                {
+                    <img class="card-img-top" src="data:image/jpeg;base64,@Convert.ToBase64String(book.CoverImage)" alt="@book.Title Cover" />
+                }
+                <div class="card-body">
+                    <h5 class="card-title">@book.Title</h5>
+                    <p class="card-text">@book.Author.Name</p>
+                    <a asp-action="Details" asp-route-id="@book.BookId" class="btn btn-primary">Details</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
