@@ -1,0 +1,9 @@
+﻿{
+  "applications": {
+    "WavePlatform": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44319",
+      "path": "../../WavePlatform/WavePlatform.csproj"
+    }
+  }
+}
