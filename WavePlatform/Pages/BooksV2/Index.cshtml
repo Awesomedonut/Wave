@@ -1,10 +1,9 @@
 ﻿@page
-
-@model IEnumerable<WavePlatform.Models.Book>
+@model WavePlatform.Views.Books.IndexModel
 
 <h1>Books</h1>
 
-@if (Model == null || !Model.Any())
+@if (Model.Books == null || !Model.Books.Any())
 {
     <p>The library is currently empty.</p>
 }
@@ -19,7 +18,7 @@ else
             </tr>
         </thead>
         <tbody>
-            @foreach (var book in Model)
+            @foreach (var book in Model.Books)
             {
                 <tr>
                     <td>@book.Title</td>

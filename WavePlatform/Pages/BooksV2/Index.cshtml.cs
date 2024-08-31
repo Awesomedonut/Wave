@@ -20,7 +20,7 @@ namespace WavePlatform.Views.Books
         public async Task OnGetAsync()
         {
             // Fetch books from the database, including their associated authors
-            Books = await _context.Books.Include(b => b.Author).ToListAsync();
+            Books = await _context.Books.ToListAsync();
         }
 
         public async Task<IActionResult> OnPostAddToLibraryAsync(Guid bookId)

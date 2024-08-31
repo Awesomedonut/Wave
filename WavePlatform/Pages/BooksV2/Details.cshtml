@@ -1,20 +1,21 @@
 ﻿@page
-@model WavePlatform.Models.Book
+@model WavePlatform.Views.Books.DetailsModel
 
-<h1>@Model.Title</h1>
+<h1>Book Details</h1>
 
 <div>
-    <h4>Author: @Model.Author.Name</h4>
-    <p>@Model.Description</p>
-    @if (Model.CoverImage != null)
+    <h4>Title: @Model.FirstBook.Title</h4>
+    <h4>Author: @Model.FirstBook.Author</h4>
+    <p>@Model.FirstBook.Description</p>
+    @if (Model.FirstBook.CoverImage != null)
     {
-        <img src="data:image/jpeg;base64,@Convert.ToBase64String(Model.CoverImage)" alt="@Model.Title Cover" />
+        <img src="data:image/jpeg;base64,@Convert.ToBase64String(Model.FirstBook.CoverImage)" />
     }
 </div>
 
 <div>
     <form asp-action="AddToLibrary" method="post">
-        <input type="hidden" name="bookId" value="@Model.BookId" />
+        <input type="hidden" name="bookId" value="@Model.FirstBook.BookId" />
         <button type="submit">Add to Library</button>
     </form>
 </div>
