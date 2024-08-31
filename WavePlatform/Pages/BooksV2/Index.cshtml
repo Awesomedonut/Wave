@@ -22,7 +22,7 @@ else
             {
                 <tr>
                     <td>@book.Title</td>
-                    <td>@book.Author?.Name</td>
+                    <td>@book.AuthorName</td>
                     <td>
                         <a asp-page="./Details" asp-route-id="@book.BookId">View Details</a>
                         <form asp-page-handler="AddToLibrary" method="post" style="display: inline;">

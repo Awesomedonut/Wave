@@ -5,7 +5,14 @@
 
 <div>
     <h4>Title: @Model.Book.Title</h4>
-    <h4>Author: @Model.Book.Author</h4>
+    @if (Model.Book.AuthorName != null){
+        <h4>Author: @Model.Book.AuthorName</h4>
+    }
+    else
+    {
+        <h4>Anonymous author</h4>
+    }
+
     <p>@Model.Book.Description</p>
     @if (Model.Book.CoverImage != null)
     {

@@ -20,10 +20,11 @@ namespace BookWebApp.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var books = await _context.Books.Include(b => b.Author).ToListAsync();
+            var books = await _context.Books.ToListAsync();
             return View(books);
         }
 
+      //  [HttpGet("details/{id}")]
         public async Task<IActionResult> Details(Guid? id)
         {
             if (id == null)
@@ -32,7 +33,6 @@ namespace BookWebApp.Controllers
             }
 
             var book = await _context.Books
-                .Include(b => b.Author)
                 .FirstOrDefaultAsync(m => m.BookId == id);
 
             if (book == null)

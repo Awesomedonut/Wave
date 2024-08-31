@@ -25,14 +25,16 @@ namespace WavePlatform.Views.Books
             }
 
             Book = await _context.Books
-                .Include(b => b.Author)
                 .FirstOrDefaultAsync(m => m.BookId == id);
 
             if (Book == null)
             {
                 return NotFound();
             }
-
+            if(Book.AuthorId != null)
+            {
+                Book.AuthorName = (await _context.Authors.FirstOrDefaultAsync(m => m.AuthorId == Book.AuthorId)).Name;
+            }
             return Page();
         }
     }
