@@ -15,14 +15,25 @@ namespace WavePlatform.Views.Books
             _context = context;
         }
 
-        public Book FirstBook { get; set; }
+        public Book Book { get; set; }
 
-
-        public async Task OnGetAsync()
+        public async Task<IActionResult> OnGetAsync(Guid id)
         {
-            // Fetch books from the database, including their associated authors
-            FirstBook = await _context.Books.FirstAsync();
-        }
+            if (id == null)
+            {
+                return NotFound();
+            }
 
+            Book = await _context.Books
+                .Include(b => b.Author)
+                .FirstOrDefaultAsync(m => m.BookId == id);
+
+            if (Book == null)
+            {
+                return NotFound();
+            }
+
+            return Page();
+        }
     }
 }

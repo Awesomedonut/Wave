@@ -24,7 +24,7 @@ else
                     <td>@book.Title</td>
                     <td>@book.Author?.Name</td>
                     <td>
-                        <a asp-page="./Details" asp-route-id="@book.BookId">Details</a> |
+                        <a asp-page="./Details" asp-route-id="@book.BookId">View Details</a>
                         <form asp-page-handler="AddToLibrary" method="post" style="display: inline;">
                             <input type="hidden" name="bookId" value="@book.BookId" />
                             <button type="submit">Add to Library</button>
