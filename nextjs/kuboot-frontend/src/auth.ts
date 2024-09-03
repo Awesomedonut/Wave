@@ -1,8 +1,9 @@
+// src/auth.ts
 import apiClient from './apiClient';
 import Cookies from 'js-cookie';
 
 interface LoginResponse {
-  token: string;
+  token: string; // The expected token format returned by your .NET backend
   // Add other response fields as needed
 }
 

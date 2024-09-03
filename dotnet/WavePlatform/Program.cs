@@ -28,7 +28,7 @@ public class Program
                         .Enrich.FromLogContext()
                         .WriteTo.Async(c => c.File("Logs/logs.txt"))
                         .WriteTo.Async(c => c.Console());
-                    
+
                     if (IsMigrateDatabase(args))
                     {
                         loggerConfiguration.MinimumLevel.Override("Volo.Abp", LogEventLevel.Warning);
@@ -39,10 +39,22 @@ public class Program
                         loggerConfiguration.WriteTo.Async(c => c.AbpStudio(services));
                     }
                 });
+
             if (IsMigrateDatabase(args))
             {
                 builder.Services.AddDataMigrationEnvironment();
             }
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowSpecificOrigins", builder =>
+                {
+                    builder.WithOrigins("http://localhost:3000")
+                           .AllowAnyMethod()
+                           .AllowAnyHeader();
+                });
+            });
+
             await builder.AddApplicationAsync<WavePlatformModule>();
             var app = builder.Build();
             await app.InitializeApplicationAsync();
@@ -52,6 +64,9 @@ public class Program
                 await app.Services.GetRequiredService<WavePlatformDbMigrationService>().MigrateAsync();
                 return 0;
             }
+
+            // Use the CORS policy
+            app.UseCors("AllowSpecificOrigins");
 
             Log.Information("Starting WavePlatform.");
             await app.RunAsync();
