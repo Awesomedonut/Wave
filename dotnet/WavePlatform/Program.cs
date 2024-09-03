@@ -21,7 +21,7 @@ public class Program
 #if DEBUG
                         .MinimumLevel.Debug()
 #else
-            .MinimumLevel.Information()
+                        .MinimumLevel.Information()
 #endif
                         .MinimumLevel.Override("Microsoft", LogEventLevel.Information)
                         .MinimumLevel.Override("Microsoft.EntityFrameworkCore", LogEventLevel.Warning)
@@ -45,28 +45,23 @@ public class Program
                 builder.Services.AddDataMigrationEnvironment();
             }
 
+            // Configure CORS to allow specific origin with credentials
             builder.Services.AddCors(options =>
             {
-                options.AddPolicy("AllowAll", builder =>
+                options.AddPolicy("AllowSpecificOrigin", policyBuilder =>
                 {
-                    builder.AllowAnyOrigin()    // Allow any origin
+                    policyBuilder.WithOrigins("http://localhost:3000") // Replace with your frontend's URL
                            .AllowAnyMethod()    // Allow any HTTP method (GET, POST, etc.)
-                           .AllowAnyHeader();   // Allow any HTTP headers
+                           .AllowAnyHeader()    // Allow any HTTP headers
+                           .AllowCredentials(); // Allow credentials (cookies, etc.)
                 });
             });
 
             await builder.AddApplicationAsync<WavePlatformModule>();
             var app = builder.Build();
-            await app.InitializeApplicationAsync();
 
-            if (IsMigrateDatabase(args))
-            {
-                await app.Services.GetRequiredService<WavePlatformDbMigrationService>().MigrateAsync();
-                return 0;
-            }
-
-            // Apply CORS policy before other middleware
-            app.UseCors("AllowAll");
+            // Apply CORS policy before initializing the application
+            app.UseCors("AllowSpecificOrigin");
 
             await app.InitializeApplicationAsync();
 
