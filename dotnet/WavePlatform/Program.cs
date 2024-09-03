@@ -47,11 +47,11 @@ public class Program
 
             builder.Services.AddCors(options =>
             {
-                options.AddPolicy("AllowSpecificOrigins", builder =>
+                options.AddPolicy("AllowAll", builder =>
                 {
-                    builder.WithOrigins("http://localhost:3000")
-                           .AllowAnyMethod()
-                           .AllowAnyHeader();
+                    builder.AllowAnyOrigin()    // Allow any origin
+                           .AllowAnyMethod()    // Allow any HTTP method (GET, POST, etc.)
+                           .AllowAnyHeader();   // Allow any HTTP headers
                 });
             });
 
@@ -65,8 +65,16 @@ public class Program
                 return 0;
             }
 
-            // Use the CORS policy
-            app.UseCors("AllowSpecificOrigins");
+            // Apply CORS policy before other middleware
+            app.UseCors("AllowAll");
+
+            await app.InitializeApplicationAsync();
+
+            if (IsMigrateDatabase(args))
+            {
+                await app.Services.GetRequiredService<WavePlatformDbMigrationService>().MigrateAsync();
+                return 0;
+            }
 
             Log.Information("Starting WavePlatform.");
             await app.RunAsync();
