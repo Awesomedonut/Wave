@@ -1,4 +1,3 @@
-// src/apiClient.ts
 import axios, { InternalAxiosRequestConfig } from 'axios';
 import Cookies from 'js-cookie';
 
