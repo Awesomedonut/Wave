@@ -1,0 +1,280 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rainy\\Desktop\\git\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|c:\\users\\rainy\\desktop\\git\\waveplatform\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|solutionrelative:waveplatform\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|c:\\users\\rainy\\desktop\\git\\waveplatform\\pages\\booksv2\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|solutionrelative:waveplatform\\pages\\booksv2\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|c:\\users\\rainy\\desktop\\git\\waveplatform\\pages\\booksv2\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|solutionrelative:waveplatform\\pages\\booksv2\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|c:\\users\\rainy\\desktop\\git\\waveplatform\\pages\\booksv2\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|solutionrelative:waveplatform\\pages\\booksv2\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|c:\\users\\rainy\\desktop\\git\\waveplatform\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|solutionrelative:waveplatform\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|c:\\users\\rainy\\desktop\\git\\waveplatform\\pages\\booksv2\\mylibrary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|solutionrelative:waveplatform\\pages\\booksv2\\mylibrary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|c:\\users\\rainy\\desktop\\git\\waveplatform\\pages\\booksv2\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|solutionrelative:waveplatform\\pages\\booksv2\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|c:\\users\\rainy\\desktop\\git\\waveplatform\\pages\\booksv2\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|solutionrelative:waveplatform\\pages\\booksv2\\details.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|c:\\users\\rainy\\desktop\\git\\waveplatform\\pages\\booksv2\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|solutionrelative:waveplatform\\pages\\booksv2\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|c:\\users\\rainy\\desktop\\git\\waveplatform\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|solutionrelative:waveplatform\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|c:\\users\\rainy\\desktop\\git\\waveplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|solutionrelative:waveplatform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|c:\\users\\rainy\\desktop\\git\\waveplatform\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|solutionrelative:waveplatform\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|c:\\users\\rainy\\desktop\\git\\waveplatform\\pages\\books\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|solutionrelative:waveplatform\\pages\\books\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|c:\\users\\rainy\\desktop\\git\\waveplatform\\waveplatformmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|solutionrelative:waveplatform\\waveplatformmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|c:\\users\\rainy\\desktop\\git\\waveplatform\\waveplatformmoduleextensionconfigurator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|solutionrelative:waveplatform\\waveplatformmoduleextensionconfigurator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|c:\\users\\rainy\\desktop\\git\\waveplatform\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{64430A23-E2E0-471D-B9F9-31E4E4C834E8}|WavePlatform\\WavePlatform.csproj|solutionrelative:waveplatform\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\Pages\\BooksV2\\Details.cshtml",
+              "RelativeDocumentMoniker": "WavePlatform\\Pages\\BooksV2\\Details.cshtml",
+              "ToolTip": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\Pages\\BooksV2\\Details.cshtml",
+              "RelativeToolTip": "WavePlatform\\Pages\\BooksV2\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-31T00:10:31.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\appsettings.json",
+              "RelativeDocumentMoniker": "WavePlatform\\appsettings.json",
+              "ToolTip": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\appsettings.json",
+              "RelativeToolTip": "WavePlatform\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-30T18:57:31.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\Pages\\BooksV2\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "WavePlatform\\Pages\\BooksV2\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\Pages\\BooksV2\\Index.cshtml.cs",
+              "RelativeToolTip": "WavePlatform\\Pages\\BooksV2\\Index.cshtml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T18:38:19.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\Program.cs",
+              "RelativeDocumentMoniker": "WavePlatform\\Program.cs",
+              "ToolTip": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\Program.cs",
+              "RelativeToolTip": "WavePlatform\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T18:21:41.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\package.json",
+              "RelativeDocumentMoniker": "WavePlatform\\package.json",
+              "ToolTip": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\package.json",
+              "RelativeToolTip": "WavePlatform\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-31T21:44:42.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "WavePlatform\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\Models\\Book.cs",
+              "RelativeToolTip": "WavePlatform\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T23:24:00.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyLibrary.cshtml",
+              "DocumentMoniker": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\Pages\\BooksV2\\MyLibrary.cshtml",
+              "RelativeDocumentMoniker": "WavePlatform\\Pages\\BooksV2\\MyLibrary.cshtml",
+              "ToolTip": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\Pages\\BooksV2\\MyLibrary.cshtml",
+              "RelativeToolTip": "WavePlatform\\Pages\\BooksV2\\MyLibrary.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAhwBEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-31T22:08:24.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WavePlatformModuleExtensionConfigurator.cs",
+              "DocumentMoniker": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\WavePlatformModuleExtensionConfigurator.cs",
+              "RelativeDocumentMoniker": "WavePlatform\\WavePlatformModuleExtensionConfigurator.cs",
+              "ToolTip": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\WavePlatformModuleExtensionConfigurator.cs",
+              "RelativeToolTip": "WavePlatform\\WavePlatformModuleExtensionConfigurator.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T23:17:02.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\Pages\\BooksV2\\Create.cshtml",
+              "RelativeDocumentMoniker": "WavePlatform\\Pages\\BooksV2\\Create.cshtml",
+              "ToolTip": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\Pages\\BooksV2\\Create.cshtml",
+              "RelativeToolTip": "WavePlatform\\Pages\\BooksV2\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T23:13:24.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\Pages\\BooksV2\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "WavePlatform\\Pages\\BooksV2\\Create.cshtml.cs",
+              "ToolTip": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\Pages\\BooksV2\\Create.cshtml.cs",
+              "RelativeToolTip": "WavePlatform\\Pages\\BooksV2\\Create.cshtml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAEwCYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T19:50:36.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "WavePlatform\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\Controllers\\BookController.cs",
+              "RelativeToolTip": "WavePlatform\\Controllers\\BookController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAArwCIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T21:42:38.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\Pages\\BooksV2\\Details.cshtml.cs",
+              "RelativeDocumentMoniker": "WavePlatform\\Pages\\BooksV2\\Details.cshtml.cs",
+              "ToolTip": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\Pages\\BooksV2\\Details.cshtml.cs",
+              "RelativeToolTip": "WavePlatform\\Pages\\BooksV2\\Details.cshtml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwCIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T23:46:49.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "WavePlatform\\Models\\Author.cs",
+              "ToolTip": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\Models\\Author.cs",
+              "RelativeToolTip": "WavePlatform\\Models\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T21:47:20.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\Pages\\BooksV2\\Index.cshtml",
+              "RelativeDocumentMoniker": "WavePlatform\\Pages\\BooksV2\\Index.cshtml",
+              "ToolTip": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\Pages\\BooksV2\\Index.cshtml",
+              "RelativeToolTip": "WavePlatform\\Pages\\BooksV2\\Index.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAADgvxgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T23:27:44.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\Pages\\Books\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "WavePlatform\\Pages\\Books\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\Pages\\Books\\Index.cshtml.cs",
+              "RelativeToolTip": "WavePlatform\\Pages\\Books\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T23:46:07.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WavePlatformModule.cs",
+              "DocumentMoniker": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\WavePlatformModule.cs",
+              "RelativeDocumentMoniker": "WavePlatform\\WavePlatformModule.cs",
+              "ToolTip": "C:\\Users\\rainy\\Desktop\\git\\WavePlatform\\WavePlatformModule.cs",
+              "RelativeToolTip": "WavePlatform\\WavePlatformModule.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAewMYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T23:17:08.387Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
